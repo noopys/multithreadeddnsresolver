@@ -1,8 +1,7 @@
 # Multithreaded DNS Resolver
 
-## Advanced Synchronization Mechanism
 
-At the heart of this Multithreaded DNS Resolver lies a sophisticated synchronization mechanism that employs semaphores to solve the classic producer/consumer problem. The system is designed to operate in a multi-threaded environment, where multiple requester threads act as producers and multiple resolver threads act as consumers. The threads interact with a shared, thread-safe array data structure, which serves as the buffer for DNS hostnames.
+At the heart of this Multithreaded DNS Resolver lies a synchronization mechanism that employs semaphores to solve the classic producer/consumer problem. The system is designed to operate in a multi-threaded environment, where multiple requester threads act as producers and multiple resolver threads act as consumers. The threads interact with a shared, thread-safe array data structure, which serves as the buffer for DNS hostnames.
 
 The synchronization mechanism is built on a triad of semaphores:
 
