@@ -1,5 +1,6 @@
 # Multithreaded DNS Resolver
 
+## WARNING: This program using Linux dependent libraries such as linux pthread and synchronization mechanisms. It will not work on Windows. 
 
 This is a Multithreaded DNS Resolver that uses a synchronization mechanism employing semaphores to solve the classic producer/consumer problem. The system is designed to operate in a multi-threaded environment, where multiple requester threads act as producers and multiple resolver threads act as consumers. The threads interact with a shared, thread-safe array data structure, which serves as the buffer for DNS hostnames.
 
