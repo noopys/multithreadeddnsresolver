@@ -10,7 +10,7 @@ The synchronization mechanism is built on a triad of semaphores:
 2. **Space Available Semaphore**: Blocks requester threads when the array is full, ensuring that the array never overflows.
 3. **Items Available Semaphore**: Blocks resolver threads when the array is empty, ensuring that the threads only consume when there is data to process.
 
-This intricate interplay of semaphores allows for a highly efficient, deadlock-free operation, ensuring that the system can scale seamlessly with increasing numbers of threads and data.
+This interplay of semaphores allows for a highly efficient, deadlock-free operation, ensuring that the system can scale seamlessly with increasing numbers of threads and data.
 
 ## Overview
 
