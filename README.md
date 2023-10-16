@@ -76,4 +76,4 @@ Run the `multi-lookup` executable with the following command-line arguments:
 
 ## Additional Information
 
-For more details, you can refer to the comments in the code files. Feel free to explore the intricacies of the advanced synchronization mechanisms and the multi-threaded architecture that make this DNS Resolver highly efficient and scalable.
+For more details, you can refer to the comments in the code files. Feel free to explore the synchronization mechanisms and the multi-threaded architecture that make this DNS Resolver highly efficient and scalable.
